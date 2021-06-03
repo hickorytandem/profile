@@ -1,0 +1,84 @@
+h1 {
+  color: #6d6875;
+  font-family: 'Lato', sans-serif;
+}
+.img-circle {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.card{
+  text-align: center;
+  margin-bottom: 16px;
+}
+.link{
+  background-color: #06d6a0;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,.1);
+  text-decoration: none;
+}
+
+.img-circle{
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+.lower-card{
+  color: #6d6875;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #06d6a0;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  line-height: 2
+}
+
+a {
+  color: #5e60ce;
+  font-family: 'Lato', sans-serif;
+}
+a:hover {
+  color: orange;
+}
+ul {
+  list-style: none;
+  font-size: 32px;
+  display: inline;
+}
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+}
+
+.list-inline li {
+display: inline-block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
